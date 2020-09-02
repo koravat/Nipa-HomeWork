@@ -1,1 +1,2 @@
 # Nipa-HomeWork
+npm start
