@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Exchange Rate</h1>
+        <div class="ui input">
+            <input type="text" id="myInput" placeholder="THB">
+            <button onclick="myFunction()" class="ui button">
+                OK
+              </button>
+              <h4 id="1"></h4>
+              <h4 id="2"></h4>
+              <h4 id="3"></h4>
+          </div>
+          <script>
+            function myFunction() {
+                var x = document.getElementById("myInput").value;
+              document.getElementById("1").innerHTML = (x*0.032) +" Dollar";
+              document.getElementById("2").innerHTML = (x*3.4) + " Yen";
+              document.getElementById("3").innerHTML = (x*0.027)+ " Euro";
+            }
+            </script>
+    </body>
+    
+</html>
